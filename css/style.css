@@ -1,0 +1,208 @@
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+    
+       h1,h2,h3,h4 {
+       font-family: 'Oswald', sans-serif;
+       font-weight:400;
+       letter-spacing: 8px;
+       text-align:center;
+       text-transform:uppercase;
+       font-size:30px;
+       color:#000;
+       margin-top:0;
+       }
+
+    .container {
+      position:relative;
+      width:1000px;
+      padding:0 15px;
+      background-color:#FFFFF0;
+      left:50%;
+       margin-left:-500px;
+    }
+
+    .header {
+      display:block;
+      background-image:url("../cats/header.jpg");
+      
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height:300px;
+    }
+  .header::after {
+       content: "";
+       background-color: #000000;
+       opacity: 0.4;
+       position: absolute;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       }
+        
+     .menu {
+      position: absolute;
+      display:flex;
+      justify-content: end;  
+     
+      right:60px;
+      z-index: 2; 
+      list-style-type:none;
+      box-sizing: border-box;
+      padding:0;
+     }
+     
+     .menu-item {
+       font-family: 'Open Sans', sans-serif; 
+       font-size:15px;
+       color:#fff;
+       margin-left:20px;
+       text-transform: uppercase;
+       text-decoration:none;
+     }
+     
+     .menu-item:nth-child(1) {
+      margin-left:0;
+     }
+
+     h1 {  
+       position: absolute;
+       top:130px;
+       width:300px;
+       left:50%;
+       margin-left:-150px;
+       z-index: 2; 
+       padding-left:15px;
+        padding-right:15px;
+        color:#fff;
+  
+  
+/*  outline:1px solid grey;*/
+}
+.header {
+  position: relative;
+ }
+
+    .article {
+     display:flex;
+     justify-content: space-between;
+
+    }
+    .img {
+      width:300px;
+      outline:1px solid grey;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    .ris_1 {
+     background-image:url("../cats/a.jpg");
+     }
+    .ris_2 {
+     background-image:url("../cats/b.jpg");
+     }
+     .ris_3 {
+     background-image:url("../cats/c.jpg");
+     }
+     .ris_4 {
+     background-image:url("../cats/d.jpg");
+     }
+     .ris_5 {
+     background-image:url("../cats/e.jpg");
+     }
+     .ris_6 {
+     background-image:url("../cats/f.jpg");
+     }
+     .ris_7 {
+     background-image:url("../cats/1.jpg");
+     }
+     .ris_8 {
+     background-image:url("../cats/h.jpg");
+     }
+     .ris_9 {
+     background-image:url("../cats/j.jpg");
+     }
+
+    .info  {
+       width:600px;
+       box-sizing:border-box;
+       margin-left:30px;
+       padding-left:10px;
+       padding-right:10px;
+       vertical-align:top;
+      
+      margin-bottom:10px;
+    }
+       
+    p {
+     font-family: 'Open Sans', sans-serif; 
+     font-size:20px;
+     color:#000;
+    }
+
+    .aside {
+      display:flex;
+      align-content: space-between;
+      position:relative;
+      left:50%;
+      margin-left:-450px;
+      width:860px;
+      
+    }
+   
+    .cats-age {
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: space-between;
+       width:400px;
+      height:150px;
+    }
+    
+    .name-age {
+      width:200px;
+      font-family: 'Open Sans', sans-serif; 
+      font-size:15px;
+      border:1px solid grey;
+      box-sizing: border-box;
+      text-align: center;
+      padding-top:10px;
+      padding-bottom: 10px;
+    }
+ .others {
+  width:400px;
+   margin-left:60px;
+ }
+
+.other-link {
+  font-family: 'Open Sans', sans-serif; 
+  font-size:15px;
+  padding-top:5px;
+  padding-bottom: 5px;
+} 
+.footer {
+  background-color: grey;
+  color:#fff;
+}
+
+.mus {
+  text-align: center;
+ }
+ 
+.address {
+    font-family: 'Open Sans', sans-serif; 
+    font-size:14px;
+    color:#fff;
+    text-align: center;
+    top:200px;
+}
+
+.ssilka {
+   font-family: 'Open Sans', sans-serif; 
+  font-weight:400;
+  font-size:20px;
+  color:#000;
+  text-decoration:none;
+}
+
+
